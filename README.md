@@ -8,7 +8,7 @@ Generated with [Raygun](https://github.com/carbonfive/raygun).
 
 To run the specs or fire up the server, be sure you have these:
 
-* Ruby 2.0.0-p247
+* Ruby 2.0.0-p353
 * PostgreSQL 9.x with superuser 'postgres' with no password (```createuser -s postgres```)
 * PhantomJS for JavaScript testing (```brew install phantomjs```)
 
@@ -38,7 +38,7 @@ Again, with coverage for the ruby specs:
 ### Running the Application Locally
 
     $ foreman start
-    $ open http://0.0.0.0:3000
+    $ open http://localhost:3000
 
 ### Using Guard
 
