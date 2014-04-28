@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 # Heroku uses the ruby version to configure your application's runtime.
-ruby '2.0.0'
+ruby '2.1.1'
 
 gem 'unicorn'
 gem 'rack-canonical-host'
-gem 'rails', '~> 4.0.1'
+gem 'rails', '~> 4.1'
 gem 'pg'
 
 gem 'slim-rails'
@@ -32,7 +32,7 @@ group :test, :development do
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'fuubar'
-  gem 'jasminerice', github: 'bradphelan/jasminerice' # Latest release still depends on haml.
+  gem 'jasminerice', git: 'https://bitbucket.com/vizworxtriquest/jasminerice.git' , branch: 'feature/console_reports'# Latest release still depends on haml.
   #gem 'timecop'
   gem 'simplecov'
   #gem 'cane'
